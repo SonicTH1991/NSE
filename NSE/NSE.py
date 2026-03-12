@@ -82,7 +82,7 @@ class NginxAutoAuditor:
         while True:
             self.clear_screen()
             print("="*50)
-            print(f" NGINX BATCH AUDITOR v1.4")
+            print(f" SUBDOMAIN FINDER V1")
             print(f" Target: {self.target if self.target else 'Not set'}")
             print(f" Threads: {self.threads} | Folder: /{self.wordlists_dir}")
             print("="*50)
@@ -105,4 +105,5 @@ class NginxAutoAuditor:
 
 if __name__ == "__main__":
     app = NginxAutoAuditor()
+
     app.main_menu()
